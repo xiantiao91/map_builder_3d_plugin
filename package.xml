@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>map_builder_3d_plugin</name>
+  <version>0.0.0</version>
+  <description>My custom rviz plugin</description>
+  <maintainer email="youremail@example.com">Your Name</maintainer>
+  <license>MIT License</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>rviz</build_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>rviz</build_export_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>rviz</exec_depend>
+  <build_depend>pluginlib</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+
+  <export>
+    <rviz plugin="${prefix}/plugin.xml"/>
+  </export>
+
+</package>

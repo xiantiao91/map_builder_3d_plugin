@@ -1,0 +1,19 @@
+<library path="lib/map_builder_3d_plugin">
+  <class name="map_builder_3d_plugin::AutoSubscriberDisplay"
+  type="map_builder_3d_plugin::AutoSubscriberDisplay"
+  base_class_type="rviz::Display">
+    <description> This is a custom display plugin that subscribes to a PointCloud2 topic automatically. </description>
+    <qtgui>
+      <label>AutoSubscriber Display</label>
+      <group>
+        <attribute name="Message Topic" type="string">
+          <default>/points2</default>
+        </attribute>
+        <attribute name="Queue Size" type="int">
+          <default>10</default>
+        </attribute>
+      </group>
+    </qtgui>
+  </class>
+</library>
+
